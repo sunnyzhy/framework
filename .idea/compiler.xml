@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="framework-register-center" />
+        <module name="framework-gateway" />
+        <module name="framework-auth" />
+        <module name="framework-actor" />
+        <module name="framework-common" />
+        <module name="framework-admin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth" target="1.8" />
+      <module name="framework" target="1.8" />
+      <module name="framework-actor" target="1.8" />
+      <module name="framework-admin" target="1.8" />
+      <module name="framework-auth" target="1.8" />
+      <module name="framework-common" target="1.8" />
+      <module name="framework-gateway" target="1.8" />
+      <module name="framework-register-center" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth" options="-parameters" />
+      <module name="framework" options="" />
+      <module name="framework-actor" options="-parameters" />
+      <module name="framework-admin" options="-parameters" />
+      <module name="framework-auth" options="-parameters" />
+      <module name="framework-common" options="-parameters" />
+      <module name="framework-gateway" options="-parameters" />
+      <module name="framework-register-center" options="-parameters" />
+    </option>
+  </component>
+</project>

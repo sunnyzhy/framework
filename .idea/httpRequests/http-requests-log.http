@@ -1,0 +1,560 @@
+POST http://localhost:8100/api/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-31T060309.200.json
+
+###
+
+POST http://localhost:8100/api/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-31T060305.200.json
+
+###
+
+POST http://localhost:8100/api/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-31T060259-1.200.json
+
+###
+
+POST http://localhost:8100/api/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-31T060259.200.json
+
+###
+
+POST http://localhost:8100/api/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-31T060258.200.json
+
+###
+
+POST http://localhost:8100/api/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-31T060256.200.json
+
+###
+
+POST http://localhost:8100/api/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-31T060253.200.json
+
+###
+
+POST http://localhost:8100/api/auth/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-31T060135.401.txt
+
+###
+
+POST http://localhost:8100/api/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-31T060004.404.json
+
+###
+
+POST http://localhost:8100/api/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-31T090829.404.json
+
+###
+
+POST http://localhost:8100/api/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T060515.404.json
+
+###
+
+POST http://localhost:8101/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T060436.200.json
+
+###
+
+POST http://localhost:8101/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T055620.200.json
+
+###
+
+POST http://localhost:8101/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T055538.200.json
+
+###
+
+POST http://localhost:8101/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T055353.500.json
+
+###
+
+POST http://localhost:8101/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T055336.500.json
+
+###
+
+POST http://localhost:8101/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T055214.500.json
+
+###
+
+POST http://localhost:8101/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T055154.500.json
+
+###
+
+POST http://localhost:8101/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T055104.500.json
+
+###
+
+POST http://localhost:8100/api/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T055032.404.json
+
+###
+
+GET http://localhost:8100/api/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T055009.404.json
+
+###
+
+GET http://localhost:8100/api/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T055000.404.json
+
+###
+
+GET http://localhost:8100/api/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T054817.404.json
+
+###
+
+GET http://localhost:8100/api/admin/hello
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T054740.401.txt
+
+###
+
+GET http://localhost:8100/api/admin/hello
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T054501.401.txt
+
+###
+
+GET http://localhost:8100/api/admin/hello
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T054423.401.txt
+
+###
+
+GET http://localhost:8100/api/admin/hello
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+Access-Token: eyJhbGciOiJIUzUxMiJ9.eyJuYW1lIjoiYWRtaW4iLCJpZCI6MSwiZXhwIjoxNTc3NjkxNjczfQ.szoAHy1pvIzRFGjWjFuckehwxExQC2vYbURH5sVQ_0neuy3DznY-OEy6_Opbp6hmZC1AhT0lit2vTatUt04-RA
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T053948.500.json
+
+###
+
+GET http://localhost:8100/api/admin/hello
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+Access-Token: eyJhbGciOiJIUzUxMiJ9.eyJuYW1lIjoiYWRtaW4iLCJpZCI6MSwiZXhwIjoxNTc3NjkxNjczfQ.szoAHy1pvIzRFGjWjFuckehwxExQC2vYbURH5sVQ_0neuy3DznY-OEy6_Opbp6hmZC1AhT0lit2vTatUt04-RA
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T053931.500.json
+
+###
+
+GET http://localhost:8100/api/admin/hello
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+Access-Token: eyJhbGciOiJIUzUxMiJ9.eyJuYW1lIjoiYWRtaW4iLCJpZCI6MSwiZXhwIjoxNTc3NjkxNjczfQ.szoAHy1pvIzRFGjWjFuckehwxExQC2vYbURH5sVQ_0neuy3DznY-OEy6_Opbp6hmZC1AhT0lit2vTatUt04-RA
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T053911.500.json
+
+###
+
+GET http://localhost:8100/api/admin/hello
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+Access-Token: eyJhbGciOiJIUzUxMiJ9.eyJuYW1lIjoiYWRtaW4iLCJpZCI6MSwiZXhwIjoxNTc3NjkxNjczfQ.szoAHy1pvIzRFGjWjFuckehwxExQC2vYbURH5sVQ_0neuy3DznY-OEy6_Opbp6hmZC1AhT0lit2vTatUt04-RA
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T053821.500.json
+
+###
+
+GET http://localhost:8100/api/admin/hello
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+Access-Token: eyJhbGciOiJIUzUxMiJ9.eyJuYW1lIjoiYWRtaW4iLCJpZCI6MSwiZXhwIjoxNTc3NjkxNjczfQ.szoAHy1pvIzRFGjWjFuckehwxExQC2vYbURH5sVQ_0neuy3DznY-OEy6_Opbp6hmZC1AhT0lit2vTatUt04-RA
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T053736.500.json
+
+###
+
+GET http://localhost:8100/api/admin/hello
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+Access-Token: eyJhbGciOiJIUzUxMiJ9.eyJuYW1lIjoiYWRtaW4iLCJpZCI6MSwiZXhwIjoxNTc3NjkxNjczfQ.szoAHy1pvIzRFGjWjFuckehwxExQC2vYbURH5sVQ_0neuy3DznY-OEy6_Opbp6hmZC1AhT0lit2vTatUt04-RA
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T053734.500.json
+
+###
+
+POST http://localhost:8100/api/admin/hello
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+Access-Token: eyJhbGciOiJIUzUxMiJ9.eyJuYW1lIjoiYWRtaW4iLCJpZCI6MSwiZXhwIjoxNTc3NjkxNjczfQ.szoAHy1pvIzRFGjWjFuckehwxExQC2vYbURH5sVQ_0neuy3DznY-OEy6_Opbp6hmZC1AhT0lit2vTatUt04-RA
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T053730.500.json
+
+###
+
+POST http://localhost:8100/api/admin/hello
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+Access-Token: eyJhbGciOiJIUzUxMiJ9.eyJuYW1lIjoiYWRtaW4iLCJpZCI6MSwiZXhwIjoxNTc3NjkxNjczfQ.szoAHy1pvIzRFGjWjFuckehwxExQC2vYbURH5sVQ_0neuy3DznY-OEy6_Opbp6hmZC1AhT0lit2vTatUt04-RA
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T053649.500.json
+
+###
+
+POST http://localhost:8100/api/admin/hello
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+Access-Token: eyJhbGciOiJIUzUxMiJ9.eyJuYW1lIjoiYWRtaW4iLCJpZCI6MSwiZXhwIjoxNTc3NjkxNjczfQ.szoAHy1pvIzRFGjWjFuckehwxExQC2vYbURH5sVQ_0neuy3DznY-OEy6_Opbp6hmZC1AhT0lit2vTatUt04-RA
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T053640.500.json
+
+###
+
+GET http://localhost:8100/api/admin/hello
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+Access-Token: eyJhbGciOiJIUzUxMiJ9.eyJuYW1lIjoiYWRtaW4iLCJpZCI6MSwiZXhwIjoxNTc3NjkxNjczfQ.szoAHy1pvIzRFGjWjFuckehwxExQC2vYbURH5sVQ_0neuy3DznY-OEy6_Opbp6hmZC1AhT0lit2vTatUt04-RA
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T014254.200.txt
+
+###
+
+POST http://localhost:8100/api/admin/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T014113.200.json
+
+###
+
+POST http://localhost:8100/api/admin/hello
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T013422.401.txt
+
+###
+
+POST http://localhost:8100/api/admin/hello
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T013249.401.txt
+
+###
+
+POST http://localhost:8100/api/admin/hello
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T013230.401.txt
+
+###
+
+POST http://localhost:8100/api/admin/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T113418.200.json
+
+###
+
+POST http://localhost:8100/api/admin/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T113221.500.json
+
+###
+
+POST http://localhost:8100/api/admin/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T113205.500.json
+
+###
+
+POST http://localhost:8100/api/admin/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T113152.500.json
+
+###
+
+POST http://localhost:8100/api/admin/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T113109.200.json
+
+###
+
+POST http://localhost:8100/api/admin/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T113105.200.json
+
+###
+
+POST http://localhost:8100/api/admin/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T113057.200.json
+
+###
+
+POST http://localhost:8100/api/admin/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T113056.200.json
+
+###
+
+POST http://localhost:8100/api/admin/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin","password":"admin"}
+
+<> 2019-12-30T113053.200.json
+
+###
+
+POST http://localhost:8100/api/admin/auth/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"username":"admin1","password":"admin"}
+
+<> 2019-12-30T103831.200.json
+
+###
+

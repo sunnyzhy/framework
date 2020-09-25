@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/framework.iml" filepath="$PROJECT_DIR$/framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-actor/framework-actor.iml" filepath="$PROJECT_DIR$/framework-actor/framework-actor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-admin/framework-admin.iml" filepath="$PROJECT_DIR$/framework-admin/framework-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-auth/framework-auth.iml" filepath="$PROJECT_DIR$/framework-auth/framework-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-common/framework-common.iml" filepath="$PROJECT_DIR$/framework-common/framework-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-gateway/framework-gateway.iml" filepath="$PROJECT_DIR$/framework-gateway/framework-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-register-center/framework-register-center.iml" filepath="$PROJECT_DIR$/framework-register-center/framework-register-center.iml" />
+    </modules>
+  </component>
+</project>

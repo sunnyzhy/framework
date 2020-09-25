@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-12-30T09:51:04.651+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "status 500 reading AdminFeign#login(User)",
+  "path": "/auth/login"
+}

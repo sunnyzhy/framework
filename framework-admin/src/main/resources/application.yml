@@ -1,0 +1,30 @@
+server:
+  port: 8102
+
+spring:
+  application:
+    name: framework-admin
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource # druid 的必配项很少，只需配置这一行即可
+    url: jdbc:mysql://20.0.0.106:3306/z_admin?characterEncodeing=utf-8&useSSL=false
+    username: root
+    password: root
+    druid:
+      filter:
+        stat:
+          enabled: false # druid参数调优（可选），关闭 druid 的 sql 语句监控功能，防止内存溢出
+      initial-size: 5 # druid参数调优（可选），初始化时建立的连接池数量
+      min-idle: 10 # druid参数调优（可选），最小连接池数量
+      max-active: 20 # druid参数调优（可选），最大连接池数量
+      max-wait: 60000 # druid参数调优（可选），获取连接等待超时的时间，单位是毫秒
+      min-evictable-idle-time-millis: 600000 # druid参数调优（可选），一个连接在池中最小生存的时间，单位是毫秒
+      max-evictable-idle-time-millis: 900000 # druid参数调优（可选），一个连接在池中最大生存的时间，单位是毫秒
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8099/eureka/
+
+mybatis:
+  mapper-locations: classpath:mapper/**/*.xml

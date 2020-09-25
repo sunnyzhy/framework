@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-12-30T09:53:36.170+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Read timed out executing POST http://framework-admin/auth/login",
+  "path": "/auth/login"
+}

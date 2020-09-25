@@ -1,0 +1,19 @@
+server:
+  port: 8099
+
+spring:
+  application:
+    name: framework-register-center
+
+eureka:
+  instance:
+    hostname: 127.0.0.1
+    prefer-ip-address: true # 是否优先使用服务实例的IP地址。
+  server:
+    enable-self-preservation: false # 是否启用自我保护机制，默认为true。
+    eviction-interval-timer-in-ms: 5000 # 清除无效服务实例的时间间隔（ms），默认1分钟。
+  client:
+    register-with-eureka: false # 是否将此实例注册到EurekaServer以供其他服务发现，默认为true。由于当前实例就是EurekaServer，所以值为false。
+    fetch-registry: false # 是否获取EurekaServer注册表上的注册信息，默认为true。单节点不需要同步其他EurekaServer节点的数据。
+    service-url:
+      defaultZone: http://127.0.0.1:8099/eureka/

@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-12-30T03:32:05.637+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "nested exception is org.apache.ibatis.binding.BindingException: Parameter 'username' not found. Available parameters are [name, param1]",
+  "path": "/auth/login"
+}

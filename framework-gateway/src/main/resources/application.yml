@@ -1,0 +1,84 @@
+server:
+  port: 8100
+
+spring:
+  application:
+    name: framework-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8099/eureka/
+
+#请求和响应GZIP压缩支持
+feign:
+  httpclient:
+    enabled: false
+  okhttp:
+    enabled: true
+  compression:
+    request:
+      enabled: true
+      mime-types: text/xml,application/xml,application/json
+      min-request-size: 2048
+    response:
+      enabled: true
+  hystrix:
+    enabled: true
+
+zuul:
+  host:
+    connect-timeout-millis: 60000
+    socket-timeout-millis: 60000
+  prefix: /api # 公共的前缀
+  ratelimit: # 限流策略
+    enabled: true # 启用限流策略
+    #    key-prefix: gate_rate
+    repository: REDIS # 限流数据的存储方式，默认是IN_MEMORY
+    #    behind-proxy: true
+    default-policy: # 默认策略
+      limit: 200 # 单位时间内请求次数限制
+      refresh-interval: 60 # 单位时间（秒），默认60秒
+      type: # 限流方式：ORIGIN, USER, URL
+        - user
+        - origin
+        - url
+  routes:
+    admin:
+      path: /admin/**
+      serviceId: framework-admin
+    auth:
+      path: /auth/**
+      serviceId: framework-auth
+gate:
+  ignore:
+    startWith:
+      - /static
+      - /auth/login
+
+#gate:
+#  ignore:
+#    start-with: /static,/admin/auth
+
+ribbon:
+  eureka:
+    enabled: true
+  ReadTimeout: 120000
+  ConnectTimeout: 120000
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 1
+  OkToRetryOnAllOperations: false
+
+hystrix:
+  threadpool:
+    default:
+      coreSize: 1000 # 并发执行的最大线程数，默认10
+      maxQueueSize: 1000 # BlockingQueue的最大队列数
+      queueSizeRejectionThreshold: 500 # 即使maxQueueSize没有达到，达到queueSizeRejectionThreshold该值后，请求也会被拒绝
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 50000
+          strategy: SEMAPHORE
